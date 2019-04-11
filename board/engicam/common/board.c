@@ -39,7 +39,7 @@ static void setenv_fdt_file(void)
 		if (is_mx6dq())
 			env_set("fdt_file", "imx6q-icore.dtb");
 		else if (is_mx6dl() || is_mx6solo())
-			env_set("fdt_file", "imx6dl-icore.dtb");
+			env_set("fdt_file", "icorem6dl-italdes.dtb");
 	} else if (!strcmp(cmp_dtb, "imx6q-icore-mipi")) {
 		if (is_mx6dq())
 			env_set("fdt_file", "imx6q-icore-mipi.dtb");
